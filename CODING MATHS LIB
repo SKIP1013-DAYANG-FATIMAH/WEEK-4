@@ -1,0 +1,46 @@
+package meow;
+
+public class blup {
+
+	public static void main(String[] args) {
+		System.out.println(Math.decrementExact(9));
+		System.out.println(Math.PI);
+		System.out.println(Math.exp(2));
+		System.out.println(Math.expm1(1));
+		System.out.println(Math.floor(6.999));
+		System.out.println(Math.floorDiv(5, 2));
+		System.out.println(Math.floorMod(5, 2));
+		System.out.println(Math.getExponent(64));
+		System.out.println(Math.hypot(3, 4));
+		System.out.println(Math.IEEEremainder(5.4, 3.1));
+		System.out.println(Math.incrementExact(8));
+		System.out.println(Math.log(Math.E));
+		System.out.println(Math.log10(12));
+		System.out.println(Math.max(98, 222));
+		System.out.println(Math.min(98, 222));
+		System.out.println(Math.multiplyExact(2, 3));
+		System.out.println(Math.negateExact(-42));
+		System.out.println(Math.nextAfter(31.432, -5.4));
+		System.out.println(Math.nextDown(56));
+		System.out.println(Math.nextUp(43));
+		System.out.println(Math.random());
+		System.out.println(Math.pow(7, 2));
+		System.out.println(Math.rint(4.3));
+		System.out.println(Math.round(6.7));
+		System.out.println(Math.scalb(2, 2));
+		System.out.println(Math.signum(89));
+		System.out.println(Math.signum(-89));
+		System.out.println(Math.sin(-2));
+		System.out.println(Math.sinh(-0.3));
+		System.out.println(Math.sqrt(9));
+		System.out.println(Math.subtractExact(4, 8));
+		System.out.println(Math.tan(0.2));
+		System.out.println(Math.tanh(0.45));
+		System.out.println(Math.toDegrees(45));
+		System.out.println(Math.toIntExact((long) 6.5));
+		System.out.println(Math.toRadians(45));
+		System.out.println(Math.ulp(6.4444));
+		System.out.println(Math.random());
+	}
+
+}
