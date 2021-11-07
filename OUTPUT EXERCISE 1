@@ -1,0 +1,15 @@
+Enter an integer:
+22
+Enter a double value:
+33.3
+Using nextInt():22
+Using nextDouble():33.3
+
+Using nextInt() increament by 1:23
+Using nextDouble() decreament by 1:32.3
+
+Using nextInt() increament by 5:28
+Using nextDouble() decreament by 5:27.299999999999997
+
+Using nextInt() Mod 10:8
+Using nextDouble() Mod 10: 7.303913424.008534774
