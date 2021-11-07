@@ -1,0 +1,27 @@
+package meow;
+
+public class Meow3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Declare Variables
+				double a = 1;
+				double b = 2;
+				double c = 4;
+				
+				double x1 = 0;
+				double x2 = 0;
+				
+					//Take Inputs - Do this later
+				
+					
+					//Process Inputs
+				x1 = (-b+Math.sqrt(b*b-4*a*c))/(2*a);
+				x2 = (-b-Math.sqrt(b*b-4*a*c))/(2*a);
+				
+					//Output Results
+				System.out.println("x1 = "+x1);
+				System.out.println("x2 = "+x2);
+	}
+
+}
