@@ -1,0 +1,41 @@
+package assignment;
+
+
+import java.util.Scanner;
+
+public class assignmentA {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double item;
+		double quantity;
+		double total;
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.println("Enter the number of items: ");
+		item = scan.nextInt();
+		
+		System.out.println("Enter price of first item: ");
+		item = scan.nextDouble();
+		System.out.println("Enter quantity of first item: ");
+		quantity = scan.nextDouble();
+		System.out.println("Enter price of second item: ");
+		item = scan.nextDouble();
+		System.out.println("Enter quantity of second item: ");
+		quantity = scan.nextDouble();
+		System.out.println("Enter price of third item: ");
+		item = scan.nextDouble();
+		System.out.println("Enter quantity of third item: ");
+		quantity = scan.nextDouble();
+		
+		double y = Math.pow(item, quantity);
+		System.out.println(y);
+		System.out.println("Total price: " + y);
+		
+		
+		
+		
+		
+	}
+
+}
