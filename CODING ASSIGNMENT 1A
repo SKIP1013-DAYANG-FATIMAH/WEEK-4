@@ -6,37 +6,35 @@ public class assignmentB {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int month = 12;
-		int years = 5;
-		double rate;
-		int amount;
-		double monthlypayment;
-		double totalpayment;;
-		double sum;
+		int years;
+		double interest,loan,month;
 		
 		Scanner scan = new Scanner (System.in);
 		
 		
 		System.out.println("Enter the yearly interest rate: ");
-		rate = scan.nextDouble();
+		interest = scan.nextDouble();
 		System.out.println("");
+		
 		System.out.println("Enter the number of years: ");
 		years = scan.nextInt();
 		System.out.println("");
+		
 		System.out.println("Enter the loan amount: ");
-		amount = scan.nextInt();
+		loan = scan.nextInt();
 		System.out.println("");
 		
-		sum = rate*years;
-		monthlypayment = (rate/100)*amount;
-		totalpayment = monthlypayment * month * rate;
+		double sum = ((interest/100 * loan)*years);
+		double monthly= (interest/100) * loan;
+		double total = monthly * (12*years);
 		
-		System.out.printf("The monthly payment: $%.2f" , monthlypayment);
-		System.out.println("");
-		System.out.printf("The total payment is: $%.2f" , totalpayment);
+		System.out.printf("\nThe sum of interest is : $%.2f" , sum);
+		System.out.printf("\nThe monthly payment is : $%.2f" , monthly);
+		System.out.printf("\nThe total payment is: $%.2f" , total);
 	
 		
 		
 	}
 
 }
+
